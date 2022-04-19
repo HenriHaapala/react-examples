@@ -1,0 +1,57 @@
+{
+  "todos": [
+    {
+      "id": 3,
+      "title": "Listen to Eric talk about how much he loves Fortnite",
+      "note": "Why do i listen?",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Convince Eric there's more to life than Fortnite",
+      "note": "Why do i bother?",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "title": "Convince Eric that there are better games to play",
+      "note": "Why do i bother?",
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "Educate Eric that Elden ring is better than Fortnite",
+      "note": "It's too hard for him",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "title": "Do this thing",
+      "note": "Oh god is there time for style anymore, so much Elden ring",
+      "completed": false
+    },
+    {
+      "id": 8,
+      "title": "Code",
+      "note": "Maybe later",
+      "completed": true
+    },
+    {
+      "id": 9,
+      "title": "NOT watch Eric play Fortnite",
+      "note": "Maybe i just pretend and stare at the screen",
+      "completed": true
+    },
+    {
+      "id": 10,
+      "title": "Ignore Eric's request to play Fortnite with him",
+      "note": "Think good excuses",
+      "completed": true
+    },
+    {
+      "title": "test",
+      "completed": false,
+      "id": 11
+    }
+  ]
+}
