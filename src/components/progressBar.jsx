@@ -2,9 +2,13 @@ import React from 'react';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 function ProgressBarComponent(props) {
-  
+  const now = props.progress * 20;
+  const name = props.name;
     return (
-        <ProgressBar now={props.progress * 10} />
+        <div>
+            <h3 class="mb-3">{name}</h3>
+            <ProgressBar now={props.progress * 20} label={`${now}% ready`} />
+        </div>
     );
   }
   

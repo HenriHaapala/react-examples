@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import MainPage from './routes/main';
 import Lists from "./routes/lists";
 import ContactsPage from "./routes/contactsPage";
+import CheckoutPage from './routes/checkoutPage';
 import TodoDetailsPage from "./routes/todoDetailsPage";
 import Footer from './components/footer';
 import HeaderComponent from './components/header';
@@ -45,6 +46,9 @@ class App extends Component {
                 </Route>
                 <Route path="/contacts">
                   <ContactsPage></ContactsPage>
+                </Route>
+                <Route path="/checkout">
+                  <CheckoutPage></CheckoutPage>
                 </Route>
                 <Route exact path="/">
                   <MainPage></MainPage>

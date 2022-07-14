@@ -12,7 +12,7 @@
 
 ### `npx json-server --watch db.json`
 
-4.After json server is on. Use the second terminal and go to project directory and run:
+4.After json server is on. Use the second terminal and go to project directory and run npmp start and answer yes to use other port then 3000 :
 
 ### `npm start`
 

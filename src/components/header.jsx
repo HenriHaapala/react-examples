@@ -31,6 +31,7 @@ class HeaderComponent extends Component{
             <a className="nav-link" href="/">Home</a>
             <a className="nav-link" href="/contacts">contacts</a>
             <a className="nav-link" href="/lists">lists</a>
+            <a className="nav-link" href="/checkout">checkout</a>
             <button className="nav-link btn" onClick={this.handleClickChange} value={this.props.isBackgroundGrey}>Change color</button>
           </nav>
         </div>

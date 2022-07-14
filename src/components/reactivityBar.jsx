@@ -11,7 +11,7 @@ function Reactivity() {
   return (
     <Container fluid>
       <p>You clicked {count} times</p>
-      <ProgressBarComponent className="progress" progress={count}></ProgressBarComponent>
+      <ProgressBarComponent className="progress" progress={count} name={"test"}></ProgressBarComponent>
       <Button variant="primary" className="btn btn-lg" onClick={() => setCount(count + 1)}>Click 10 times to fill progressbar</Button>
     </Container>
   );
