@@ -1,9 +1,11 @@
 import './App.css';
+import './css/checkout.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './routes/main';
 import React, { Component } from 'react';
 import MainPage from './routes/main';
 import Lists from "./routes/lists";
+import NewsPage from "./routes/newsPage";
 import ContactsPage from "./routes/contactsPage";
 import CheckoutPage from './routes/checkoutPage';
 import TodoDetailsPage from "./routes/todoDetailsPage";
@@ -14,6 +16,7 @@ import {
   Route,
   Switch
 } from "react-router-dom"; 
+import News from './components/news/news';
 
 
 class App extends Component {
@@ -40,6 +43,9 @@ class App extends Component {
               <Switch>
                 <Route exact path="/todos/:id">
                   <TodoDetailsPage></TodoDetailsPage>
+                </Route>
+                <Route path="/news">
+                  <NewsPage></NewsPage>
                 </Route>
                 <Route path="/lists">
                   <Lists></Lists>

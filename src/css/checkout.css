@@ -1,0 +1,13 @@
+.checkout-button-wrap-left{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    flex: 1;
+}
+
+.checkout-button-wrap-right{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    flex: 1;
+}

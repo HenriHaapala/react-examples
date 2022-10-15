@@ -51,9 +51,9 @@ const PersonalDetails =({prevStep, nextStep, handleChange, values}) => {
 
                     </div>
                     
-                    <hr class="my-4"></hr>
-                    
-                    <button class="w-100 btn btn-primary btn-lg" type="submit" onClick={ Continue }>Next</button>
+                    <div class="checkout-button-wrap-left">
+                        <button class="w-30 btn btn-primary btn-lg" type="submit" onClick={ Continue }>Next</button>
+                    </div>
                 </div>
             </form>
         </div>

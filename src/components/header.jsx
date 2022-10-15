@@ -29,6 +29,7 @@ class HeaderComponent extends Component{
           
           <nav className="nav nav-masthead justify-content-center">
             <a className="nav-link" href="/">Home</a>
+            <a className="nav-link" href="/news">News</a>
             <a className="nav-link" href="/contacts">contacts</a>
             <a className="nav-link" href="/lists">lists</a>
             <a className="nav-link" href="/checkout">checkout</a>

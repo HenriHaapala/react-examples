@@ -12,7 +12,7 @@ class Lists extends Component {
   }
 
   handleCompleteChange = (updateObj) => {
-    // console.log(updateObj)
+     console.log(updateObj)
     const updatedTodos = this.state.todos.map(todo => {
       if(todo.id === updateObj.id){
         const update = {

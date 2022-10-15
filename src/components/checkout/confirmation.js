@@ -62,8 +62,13 @@ const Confirmation = ({ prevStep, nextStep, values }) => {
             </ul>
     
             <br />
-            <button class="w-100 btn btn-primary btn-lg" type="submit" onClick={ Previous  }>Previous</button>
-            <button class="w-100 btn btn-primary btn-lg" type="submit" onClick={ Continue }>Confirm order</button>
+            <div class="checkout-button-wrap-left">
+                <button class="w-30 btn btn-primary btn-lg" type="submit" onClick={ Previous  }>Previous</button>
+            </div>
+            <div class="checkout-button-wrap-right">
+                <button class="w-30 btn btn-primary btn-lg" type="submit" onClick={ Continue }>Confirm order</button>
+            </div>
+
           </div>
         </div>
       )
